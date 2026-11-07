@@ -1,5 +1,6 @@
 export const el = {
 	'Map': 'Χάρτης',
+	'Marker': 'Σημάδι',
 	'Zoom in': 'Μεγέθυνση',
 	'Zoom out': 'Σμίκρυνση',
 	'Layers': 'Στρώματα',

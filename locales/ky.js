@@ -1,5 +1,6 @@
 export const ky = {
 	'Map': 'Карта',
+	'Marker': 'Маркер',
 	'Zoom in': 'Чоңойт',
 	'Zoom out': 'Кичирейт',
 	'Layers': 'Катмарлар',

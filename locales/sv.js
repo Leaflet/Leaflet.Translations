@@ -1,5 +1,6 @@
 export const sv = {
 	'Map': 'Karta',
+	'Marker': 'Markör',
 	'Zoom in': 'Zooma in',
 	'Zoom out': 'Zooma ut',
 	'Layers': 'Lager',

@@ -1,5 +1,6 @@
 export const tr = {
 	'Map': 'Harita',
+	'Marker': 'İşaretleyici',
 	'Zoom in': 'Yaklaştır',
 	'Zoom out': 'Uzaklaştır',
 	'Layers': 'Katmanlar',

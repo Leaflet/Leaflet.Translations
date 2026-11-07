@@ -1,5 +1,6 @@
 export const ko = {
 	'Map': '지도',
+	'Marker': '채점자',
 	'Zoom in': '확대',
 	'Zoom out': '축소',
 	'Layers': '레이어',

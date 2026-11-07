@@ -1,5 +1,6 @@
 export const fa = {
 	'Map': 'نقشه',
+	'Marker': 'نشانگر',
 	'Zoom in': 'بزرگ نمایی',
 	'Zoom out': 'کوچک نمایی',
 	'Layers': 'لایه ها',

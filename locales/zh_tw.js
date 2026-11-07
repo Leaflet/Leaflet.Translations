@@ -1,5 +1,6 @@
 export const zh_tw = {
 	'Map': '地圖',
+	'Marker': '標記',
 	'Zoom in': '放大',
 	'Zoom out': '縮小',
 	'Layers': '圖層',

@@ -1,5 +1,6 @@
 export const nl = {
 	'Map': 'Kaart',
+	'Marker': 'Marker',
 	'Zoom in': 'Inzoomen',
 	'Zoom out': 'Uitzoomen',
 	'Layers': 'Lagen',

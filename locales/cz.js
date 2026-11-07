@@ -1,5 +1,6 @@
 export const cz = {
 	'Map': 'Mapa',
+	'Marker': 'Značka',
 	'Zoom in': 'Přiblížit',
 	'Zoom out': 'Oddálit',
 	'Layers': 'Vrstvy',

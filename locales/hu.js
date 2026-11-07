@@ -1,5 +1,6 @@
 export const hu = {
 	'Map': 'Térkép',
+	'Marker': 'Jelző',
 	'Zoom in': 'Nagyítás',
 	'Zoom out': 'Kicsinyítés',
 	'Layers': 'Rétegek',

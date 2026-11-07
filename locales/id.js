@@ -1,5 +1,6 @@
 export const id = {
 	'Map': 'Peta',
+	'Marker': 'Penanda',
 	'Zoom in': 'Perbesar',
 	'Zoom out': 'Perkecil',
 	'Layers': 'Lapisan',

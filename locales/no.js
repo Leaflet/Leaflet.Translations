@@ -1,5 +1,6 @@
 export const no = {
 	'Map': 'Kart',
+	'Marker': 'Markør',
 	'Zoom in': 'Zoom inn',
 	'Zoom out': 'Zoom ut',
 	'Layers': 'Lag',
