@@ -1,0 +1,29 @@
+{
+  "name": "leaflet.translations",
+  "version": "1.0.0",
+  "description": "A lightweight translation helper for Leaflet with built-in presets and support for custom locales and translations",
+  "keywords": [
+    "leaflet",
+    "translation",
+    "i18n"
+  ],
+  "license": "BSD-2-Clause",
+  "author": "Florian Bischof",
+  "type": "module",
+  "exports": {
+    ".": {
+      "default": "./leaflet-translations.js"
+    }
+  },
+  "main": "leaflet-translations.js",
+  "files": [
+    "leaflet-translations.js",
+    "locales"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Leaflet/Leaflet.Translations.git"
+  },
+  "scripts": {
+  }
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@2.0.0-beta.2/dist/leaflet.css">
+    <script type="importmap">
+		{
+            "imports": {
+                "leaflet": "https://cdn.jsdelivr.net/npm/leaflet@2.0.0-beta.2/dist/leaflet.js",
+                "leaflet.translations": "./leaflet-translations.js"
+            }
+        }
+	</script>
+</head>
+
+<body>
+    <div id="map" style="height: 450px;"></div>
+    <script type="module">
+        import { LeafletMap, TileLayer} from 'leaflet';
+
+        import { translate, addLocale, getLocales, setLocale } from 'leaflet.translations';
+
+        console.log(getLocales())
+
+        addLocale('en', {
+            ...getLocales().en,
+            'some.plugin.text': 'Search'
+        });
+        
+        addLocale('de', {
+            'Map': 'Map',
+            'Zoom in': 'Hineinzoomen',
+            'Zoom out': 'Herauszoomen',
+            'Layers': 'Ebenen',
+            'Enter fullscreen': 'Vollbildmodus aktivieren',
+            'Exit fullscreen': 'Vollbildmodus beenden',
+            'Close popup': 'Popup schließen',
+            'some.plugin.text': 'Suchen'
+        });
+
+        setLocale('de');
+
+        const map = new LeafletMap('map', { translate: translate })
+            .setView([47.478954, 9.761803], 15);
+
+        new TileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+        }).addTo(map);
+
+
+        console.log(map.translate('some.plugin.text'))
+
+        /* Translations of existing controls will not change, but translations for future calls will use the new locale (like in plugins) */
+        setLocale('en');
+        console.log(map.translate('some.plugin.text'))
+
+    </script>
+</body>
+
+</html>
