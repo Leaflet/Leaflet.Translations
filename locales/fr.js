@@ -1,5 +1,6 @@
 export const fr = {
 	'Map': 'Carte',
+	'Marker': 'Marqueur',
 	'Zoom in': 'Agrandir',
 	'Zoom out': 'Réduire',
 	'Layers': 'Couches',

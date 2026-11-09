@@ -1,5 +1,6 @@
 export const ro = {
 	'Map': 'Hartă',
+	'Marker': 'Marcator',
 	'Zoom in': 'Mărire',
 	'Zoom out': 'Micșorare',
 	'Layers': 'Straturi',

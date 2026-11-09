@@ -29,6 +29,7 @@ import { zh_tw } from './locales/zh_tw.js';
 /**
  * @typedef {Record<string, string> & {
  *   'Map'?: string,
+ *   'Marker'?: string,
  *   'Zoom in'?: string,
  *   'Zoom out'?: string,
  *   'Layers'?: string,

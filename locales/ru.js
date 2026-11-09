@@ -1,5 +1,6 @@
 export const ru = {
 	'Map': 'Карта',
+	'Marker': 'Маркер',
 	'Zoom in': 'Приблизить',
 	'Zoom out': 'Отдалить',
 	'Layers': 'Слои',

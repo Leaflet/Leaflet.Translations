@@ -1,5 +1,6 @@
 export const ja = {
 	'Map': '地図',
+	'Marker': 'マーカー',
 	'Zoom in': 'ズームイン',
 	'Zoom out': 'ズームアウト',
 	'Layers': 'レイヤー',

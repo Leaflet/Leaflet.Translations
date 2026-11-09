@@ -1,5 +1,6 @@
 export const uk = {
 	'Map': 'Мапа',
+	'Marker': 'Маркер',
 	'Zoom in': 'Наблизити',
 	'Zoom out': 'Віддалити',
 	'Layers': 'Шари',

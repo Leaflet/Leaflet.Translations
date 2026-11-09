@@ -1,5 +1,6 @@
 export const pt_pt = {
 	'Map': 'Mapa',
+	'Marker': 'Marcador',
 	'Zoom in': 'Ampliar',
 	'Zoom out': 'Reduzir',
 	'Layers': 'Camadas',

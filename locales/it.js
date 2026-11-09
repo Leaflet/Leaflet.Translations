@@ -1,5 +1,6 @@
 export const it = {
 	'Map': 'Mappa',
+	'Marker': 'Marcatore',
 	'Zoom in': 'Zoom avanti',
 	'Zoom out': 'Zoom indietro',
 	'Layers': 'Livelli',

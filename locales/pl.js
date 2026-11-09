@@ -1,5 +1,6 @@
 export const pl = {
 	'Map': 'Mapa',
+	'Marker': 'Znacznik',
 	'Zoom in': 'Przybliż',
 	'Zoom out': 'Oddal',
 	'Layers': 'Warstwy',
