@@ -11,9 +11,8 @@
   "author": "Florian Bischof",
   "type": "module",
   "exports": {
-    ".": {
-      "default": "./leaflet-translations.js"
-    }
+    ".": "./leaflet-translations.js",
+    "./locales/*.js": "./locales/*.js"
   },
   "main": "leaflet-translations.js",
   "files": [
